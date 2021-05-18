@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<title>my blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    p{font-family: "Roboto", Verdana}
+
+</style>
+
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32">
+        <h1><b>MY BLOG</b></h1>
+        <p>Welcome to the blog of <span class="w3-tag w3-border-teal">Rajveer</span></p>
+    </header>
+
+    <!-- Grid -->
+    <div class="w3-row">
+
+        <!-- Blog entries -->
+        <div class="w3-col l8 s12">
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-black">
+                <img src="host1.png" alt="Nature" style="width:100%" class="w3-grayscale">
+                <div class="w3-container">
+                    <h3><b>Hosting a Website</b></h3>
+                    <h5>description, <span class="w3-opacity">April 7, 2021</span></h5>
+                </div>
+
+                <div class="w3-container">
+                    <p class=" w3-animate-right">A web hosting service (often shortened to web host) is a type of Internet hosting service that
+                        allows individuals and organizations to make their website accessible via the World Wide Web.
+                        Web hosts are companies that provide space on a server owned or leased for use by clients,
+                        as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data
+                        center space and connectivity to the Internet for other servers located in their data center,
+                        called colocation, also known as housing in Latin America or France.</p>
+                    <div class="w3-row">
+                        <div class="w3-col m8 s12">
+                            <p><a class="w3-button w3-padding-large w3-white w3-border" href="htxt.html"><b>READ MORE »</b></a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-black">
+                <iframe style="width: 100%" height="482" src="https://www.youtube.com/embed/fIc0J2R3fpM"
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+                <div class="w3-container">
+                    <h3><b>E-commerce website scraping demonstration video</b></h3>
+                    <h5>Title description, <span class="w3-opacity">April 2, 2021</span></h5>
+                </div>
+
+                <div class="w3-container">
+                    <p></p>
+                    <div class="w3-row">
+                        <div class="w3-col m8 s12">
+                            <p><a class="w3-button w3-padding-large w3-white w3-border" href="https://github.com/rajju97/rajju97.github.io"><b>READ MORE »</b></a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- END BLOG ENTRIES -->
+        </div>
+
+        <!-- Introduction menu -->
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="raj1.jpg" class="mySlides" style="width:100%" height="234">
+                <img src="raj2.jpg" class="mySlides" style="width: 100%" height="234">
+                <img src="raj3.jpg" class="mySlides" style="width: 100%" height="234">
+                <script>
+                    w3.slideshow(".mySlides",2000)
+                </script>
+                <div class="w3-container w3-black">
+                    <h4><b>About Me</b></h4>
+                    <p> I am programming enthusiast and love to explore new technologies in Computer Science. Being a Computer Science Engineer i find myself in who loves to create new things.</p>
+                </div>
+            </div><hr>
+
+            <!-- Posts -->
+            <div class="w3-card w3-margin">
+                <div class="w3-container w3-padding">
+                    <h4>Popular Posts</h4>
+                </div>
+                <ul class="w3-ul w3-hoverable w3-teal">
+                    <a href="https://www.youtube.com/watch?v=XVv6mJpFOb0"><li class="w3-padding-16">
+                        <span class="fa fa-youtube-play" ></span>                       <span class="w3-large">Watch web scraping tutorial</span><br>
+                        <span>By freecodecamp </span>
+                    </li></a>
+                    <a href="https://www.youtube.com/watch?v=BDdACdrs1vE" ><li class="w3-padding-16">
+                        <span class="fa fa-youtube-play" ></span>
+                        <span class="w3-large">Web hosting tutorial for beginners</span><br>
+                        <span>hosting plus Domain name</span>
+                    </li></a>
+                    <a href="https://www.youtube.com/watch?v=sg070ooHhsM"><li class="w3-padding-16">
+                       <span class="fa fa-youtube-play"></span>
+                        <span class="w3-large">IP protocols in networking</span><br>
+                        <span>IP Address, HTTP, FTP, SMTP, POP3/IMAP</span>
+                    </li></a>
+                    <a  href="https://www.github.com/rajju97"> <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+                        <span class="fa fa-github"></span>
+                        <span class="w3-large">My projects</span><br>
+                        <span>ML, OPENCV, TKINTER</span>
+                    </li></a>
+                </ul>
+            </div>
+            <hr>
+
+            <!-- Labels / tags -->
+            <div class="w3-card w3-margin">
+                <div class="w3-container w3-padding">
+                    <h4>Tags</h4>
+                </div>
+                <div class="w3-container w3-white">
+                    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- END Introduction Menu -->
+        </div>
+
+        <!-- END GRID -->
+    </div><br>
+
+    <!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+    <a href="#" class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</a>
+    <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</a>
+    <p>Powered by <a href="https://www.w3schools.com" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
